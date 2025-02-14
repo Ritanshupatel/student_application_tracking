@@ -1,16 +1,37 @@
-# student_application_tracking
+Student Application Tracking App
 
-A new Flutter project.
+This is a Flutter-based mobile application designed to help students track their university application progress in real-time. The app provides a modern, responsive UI, Firebase authentication for secure login, and push notifications for application updates. 🚀
 
-## Getting Started
+📌 Features
 
-This project is a starting point for a Flutter application.
+✅ User Authentication – Secure login/signup using Firebase Auth
+✅ Application Tracking – View and update application progress
+✅ Progress Bar – Visual representation of application stages
+✅ Push Notifications – Get updates on application status
+✅ Cloud Firestore – Store and manage application data
 
-A few resources to get you started if this is your first Flutter project:
+📌 Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter – UI framework
+Dart – Programming language
+Firebase Authentication – User authentication
+Cloud Firestore – Database for storing application data
+Firebase Messaging – Push notifications
+Provider – State management
+📌 Setup Instructions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/student_application_tracking.git
+cd student_application_tracking
+2️⃣ Install Dependencies
+flutter pub get
+3️⃣ Set Up Firebase
+Go to Firebase Console and create a project.
+Register your app (Android & iOS).
+Download google-services.json and place it in:
+android/app/google-services.json
+Enable Authentication and Firestore in Firebase.
+4️⃣ Run the App
+flutter run
+
+
