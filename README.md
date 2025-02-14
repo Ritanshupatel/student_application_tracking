@@ -23,14 +23,23 @@ Provider – State management
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/student_application_tracking.git
 cd student_application_tracking
+
+
+
 2️⃣ Install Dependencies
 flutter pub get
+
+
+
 3️⃣ Set Up Firebase
 Go to Firebase Console and create a project.
 Register your app (Android & iOS).
 Download google-services.json and place it in:
 android/app/google-services.json
 Enable Authentication and Firestore in Firebase.
+
+
+
 4️⃣ Run the App
 flutter run
 
