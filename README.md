@@ -18,6 +18,9 @@ Firebase Authentication – User authentication
 Cloud Firestore – Database for storing application data
 Firebase Messaging – Push notifications
 Provider – State management
+
+
+
 📌 Setup Instructions
 
 1️⃣ Clone the Repository
